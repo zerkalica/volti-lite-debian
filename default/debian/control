@@ -2,7 +2,11 @@ Source: voltilite
 Section: sound
 Priority: optional
 Maintainer: Stefan Zerkalica <zerkalica@gmail.com>
-Build-Depends: debhelper (>= 7.0.50~), quilt (>= 0.46-7~)
+Build-Depends: debhelper (>= 7.0.50~), quilt (>= 0.46-7~),
+    python-support (>= 0.5.3),
+    python-all-dev (>= 2.3.5-11),
+    pkg-config,
+    python-gtk2-dev
 Standards-Version: 3.9.1
 Homepage: https://github.com/zerkalica/volti-lite
 

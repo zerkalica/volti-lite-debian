@@ -1,3 +1,9 @@
+voltilite (0.1~git1-2~maverick0) maverick; urgency=low
+
+  * depends fix
+
+ -- Stefan Zerkalica <zerkalica@gmail.com>  Mon, 13 Dec 2010 00:01:26 +0300
+
 voltilite (0.1~git1-1~maverick0) maverick; urgency=low
 
   * New forked upstream release
