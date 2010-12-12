@@ -1,0 +1,3 @@
+?package(voltilite):needs="X11" section="Applications/Sound"\
+  title="Volti lite" command="/usr/bin/voltilite"\
+  longtitle="controlling audio volume from system tray"

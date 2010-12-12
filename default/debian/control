@@ -1,0 +1,28 @@
+Source: voltilite
+Section: sound
+Priority: optional
+Maintainer: Stefan Zerkalica <zerkalica@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), quilt (>= 0.46-7~)
+Standards-Version: 3.9.1
+Homepage: https://github.com/zerkalica/volti-lite
+
+Package: voltilite
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends}, python-gtk2(>=2.16), python-dbus(>=0.80), python-alsaaudio(>=0.5)
+Recommends: alsa-utils
+Description: application for controlling audio volume from system tray/notification area.
+ Lite fork of volti mixer http://code.google.com/p/volti/
+ Complete rewrited all code
+ Removed features:
+  - support multimedia keys on keyboard (use wm + amix)
+  - control volti from command line or bind keys within your window manager
+ .
+ Features:
+  - no pulseaudio, gstreamer, phonon etc. only alsa is needed
+  - internal mixer application, but you can choose any mixer app you prefer
+  - left click opens volume scale (slider)
+  - scroll wheel on tray icon changes volume, increment in percents 
+    is configurable
+  - you can configure middle click to toggle 'mute' or 'show mixer'
+  - nice tooltip with card and volume info
+  - support desktop notifications on keys events
