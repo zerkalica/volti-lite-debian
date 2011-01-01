@@ -6,7 +6,6 @@ Terminal=false
 Type=Application
 Icon=multimedia-volume-control
 Comment=Tray Audio Volume Control
-OnlyShowIn=GNOME;
 NoDisplay=true
 X-GNOME-Autostart-Delay=5
 X-GNOME-Autostart-Phase=Application
